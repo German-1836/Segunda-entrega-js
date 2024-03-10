@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIENDA GD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Te doy la bienvenida a la tienda de suplementos e articulos deportivos</h1>
+    <h2>GD</h2>
+   
+    <div class="oculta" id="seccionInfo">
+        <label>Ingrese nombre del producto</label>
+    <input placeholder="Nombre del producto" id="inputNombre">
+        <label>Ingrese categoria:  suplementos/accesorios</label>
+    <input placeholder="Ingrese categoria" id="inputCategoria">
+    <button id="botonBuscar">Buscar</button>
+
+</div>
+<div id="productos">
+
+</div>
+
+
+
+    <div id="seccionCarrito">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Precio unitario</th>
+                    <th>Unidades</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody id="carrito">
+    
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">
+                        <button id="comprar">Comprar</button>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+
+
+
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
